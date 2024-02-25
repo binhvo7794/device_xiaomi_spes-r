@@ -345,6 +345,11 @@ PRODUCT_PACKAGES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_bengal
+	
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-legacymm \
+    vendor.lineage.livedisplay@2.0-service-sysfs
 
 # Media
 PRODUCT_PACKAGES += \
@@ -449,6 +454,7 @@ PRODUCT_COPY_FILES += \
 # Powerhint
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # Additional packages
 PRODUCT_PACKAGES += \
     nano \
