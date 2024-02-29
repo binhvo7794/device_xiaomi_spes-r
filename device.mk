@@ -167,6 +167,19 @@ TARGET_SCREEN_WIDTH := 2400
 TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Unlimited Google Photos Storage
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/prebuilts/system/etc/sysconfig/nexus.xml:$(TARGET_COPY_OUT_SYSTEM)etc/sysconfig/nexus.xml \
+	$(LOCAL_PATH)/prebuilts/system/product/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_SYSTEM)product/etc/sysconfig/nexus.xml \
+	$(LOCAL_PATH)/prebuilts/system/product/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_SYSTEM)product/etc/sysconfig/pixel_2016_exclusive.xml \
+	$(LOCAL_PATH)/prebuilts/system/product/etc/sysconfig/pixel_experience_2017.xml:$(TARGET_COPY_OUT_SYSTEM)product/etc/sysconfig/pixel_experience_2017.xml \
+	$(LOCAL_PATH)/prebuilts/system/product/etc/sysconfig/pixel_experience_2018.xml:$(TARGET_COPY_OUT_SYSTEM)product/etc/sysconfig/pixel_experience_2018.xml \
+	$(LOCAL_PATH)/prebuilts/system/product/etc/sysconfig/pixel_experience_2019.xml:$(TARGET_COPY_OUT_SYSTEM)product/etc/sysconfig/pixel_experience_2019.xml \
+	$(LOCAL_PATH)/prebuilts/system/product/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_SYSTEM)product/etc/sysconfig/pixel_experience_2020.xml \
+	$(LOCAL_PATH)/prebuilts/system/product/etc/sysconfig/pixel_experience_2021.xml:$(TARGET_COPY_OUT_SYSTEM)product/etc/sysconfig/pixel_experience_2021.xml \
+	$(LOCAL_PATH)/prebuilts/system/product/etc/sysconfig/pixel_experience_2022.xml:$(TARGET_COPY_OUT_SYSTEM)product/etc/sysconfig/pixel_experience_2022.xml \
+	$(LOCAL_PATH)/prebuilts/system/product/etc/sysconfig/pixelify_experience.xml:$(TARGET_COPY_OUT_SYSTEM)product/etc/sysconfig/pixelify_experience.xml
+
 # Camera
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
