@@ -350,6 +350,10 @@ PRODUCT_COPY_FILES += \
 # Kernel
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
+# IRQ
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
@@ -440,11 +444,12 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2 \
-    android.hardware.power@1.2.vendor \
+    android.hardware.power@1.3 \
+    android.hardware.power@1.3.vendor \
     android.hardware.power-service-qti \
     vendor.qti.hardware.perf@2.2.vendor \
-    android.hardware.power.stats@1.0-service.mock
+    android.hardware.power.stats@1.0-service.mock \
+	android.hardware.power-service.xiaomi-libperfmgr
 
 PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
