@@ -12,4 +12,5 @@ rm -rf packages/apps/crDroidSettings && git clone https://github.com/GuidixX/and
 rm -rf packages/apps/Updater && git clone https://github.com/GuidixX/android_packages_apps_Updater packages/apps/Updater
 rm -rf vendor/crDroidOTA && git clone https://github.com/GuidixX/android_vendor_crDroidOTA vendor/crDroidOTA
 rm -rf vendor/lineage/build/tools && git clone https://github.com/GuidixX/patch vendor/lineage/build/tools
+sudo chmod -R 0777 vendor/lineage/build/tools/
 sed -i '18s/error/warning/' build/core/Makefile
