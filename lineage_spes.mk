@@ -23,6 +23,7 @@ PRODUCT_DEVICE := spes
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 11
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
