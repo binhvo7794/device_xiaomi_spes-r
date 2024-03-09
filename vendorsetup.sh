@@ -6,6 +6,7 @@ git clone https://github.com/GuidixX/android_vendor_xiaomi_spes.git vendor/xiaom
 git clone https://github.com/muralivijay/kernel_xiaomi_sm6225 kernel/xiaomi/spes --depth=1
 git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX packages/apps/ViPER4AndroidFX
 git clone https://gitlab.com/MindTheGapps/vendor_gapps vendor/gapps -b rho
+git clone https://github.com/GuidixX/vendor_xiaomi_miui_camera vendor/xiaomi/camera
 rm -rf hardware/xiaomi/megvii
 
 echo "Crdroid Dependencies"
