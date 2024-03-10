@@ -199,7 +199,8 @@ service vendor.mdm_helper /vendor/bin/mdm_helper
 on property:sys.boot_completed=1
     # Enable ZRAM on boot_complete
     swapon_all /vendor/etc/fstab.qcom
-    write /proc/sys/vm/swappiness 190
+    write /proc/sys/vm/swappiness 120
+    stop statsd
 
 service vendor.mdm_launcher /vendor/bin/sh /vendor/bin/init.mdm.sh
     class core
