@@ -33,4 +33,11 @@
 
     <!-- Whether to show min/max refresh rate in display settings -->
     <bool name="config_show_refresh_rate_controls">true</bool>
+	
+	<!-- Whether to show Connected MAC Randomization in Developer Options
+         as not all devices can support dynamic MAC address change.  -->
+    <bool name="config_wifi_support_connected_mac_randomization">true</bool>
+
+    <!-- Device specific doze package -->
+    <string name="config_customDozePackage">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
 </resources>
