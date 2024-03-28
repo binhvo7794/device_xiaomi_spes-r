@@ -465,6 +465,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service.mock \
+	android.hardware.power-service-qti
 
 PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
