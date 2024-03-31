@@ -1,4 +1,4 @@
-service dumpstate-1-1 /vendor/bin/hw/android.hardware.dumpstate@1.1-service-fog
+service dumpstate-1-1 /vendor/bin/hw/android.hardware.dumpstate@1.1-service-spes
     class hal
     user nobody
     group nobody
