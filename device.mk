@@ -288,7 +288,7 @@ PRODUCT_PACKAGES += \
 
 # DumpState
 PRODUCT_PACKAGES += \
-    android.hardware.dumpstate@1.1-service-fog
+    android.hardware.dumpstate@1.1-service-spes
 
 # Fingerprint
 PRODUCT_PACKAGES += \
