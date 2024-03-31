@@ -103,8 +103,6 @@ TARGET_USES_GRALLOC4 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 
-TARGET_USES_AOSP_SURFACEFLINGER := true
-
 # DTBO image
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
@@ -213,9 +211,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := spes,spesn
-
-# Enable stats logging in LMKD
-TARGET_LMKD_STATS_LOG := true
 
 # Platform
 BOARD_VENDOR := xiaomi
