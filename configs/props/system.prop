@@ -81,7 +81,7 @@ ro.vendor.qti.core.ctl_min_cpu=2
 # Blur
 ro.sf.blurs_are_expensive=1
 ro.surface_flinger.supports_background_blur=1
-ro.launcher.blur.appLauncher
+ro.launcher.blur.appLaunch=0
 
 # FP
 ro.hardware.fp.sideCap=true
