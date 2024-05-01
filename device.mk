@@ -28,6 +28,9 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 # Miui Camera
 $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
+# Use lz4 compression instead of gz
+PRODUCT_VIRTUAL_AB_COMPRESSION_METHOD := lz4
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
