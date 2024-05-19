@@ -450,6 +450,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Flatten APEXs for performance
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
+PRODUCT_PACKAGES += \
+    FrameworkOverlayCOMMON
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service.mock \
