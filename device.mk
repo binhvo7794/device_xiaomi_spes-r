@@ -19,11 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # Inherit QTI Bluetooth
 $(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
 
-# GApps
-$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
-
 # Viper4AndroidFX
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Miui Camera
 $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)

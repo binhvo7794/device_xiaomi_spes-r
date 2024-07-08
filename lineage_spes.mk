@@ -14,10 +14,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from spes device
 $(call inherit-product, device/xiaomi/spes/device.mk)
 
-# CrDroid Stuff
-TARGET_DEVICE_MAINTAINER := GuidixX
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-
 # Device Identifier
 PRODUCT_NAME := lineage_spes
 PRODUCT_DEVICE := spes
