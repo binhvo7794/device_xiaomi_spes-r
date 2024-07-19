@@ -25,6 +25,9 @@ $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 # Miui Camera
 $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
+# Gapps
+$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+
 # Use lz4 compression instead of gz
 PRODUCT_VIRTUAL_AB_COMPRESSION_METHOD := lz4
 
@@ -666,7 +669,8 @@ PRODUCT_BOOT_JARS += \
 
 # XiaomiParts
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiParts \
+    RemovePackages
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/spes/spes-vendor.mk)
