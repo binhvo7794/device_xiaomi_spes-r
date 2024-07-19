@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# APEX's
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
-
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
@@ -462,6 +459,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS := # leave it empty
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
+# Flatten APEXs for performance
+OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Power
 PRODUCT_PACKAGES += \
