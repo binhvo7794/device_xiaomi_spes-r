@@ -152,7 +152,9 @@ BOARD_KERNEL_CMDLINE += \
     service_locator.enable=1 \
     swiotlb=2048 \
     kpti=off \
-    cgroup_disable=pressure
+    cgroup_disable=pressure \
+    cgroup.memory=nokmem,nosocket \
+    noirqdebug
 
 BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=qcom
 BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery

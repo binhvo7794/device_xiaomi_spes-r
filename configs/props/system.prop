@@ -74,12 +74,10 @@ iorapd.readahead.enable=false
 persist.device_config.runtime_native_boot.iorap_readahead_enable=false
 
 # Logs
-persist.log.tag.OpenGLRenderer=S
-
-# Logs
 persist.log.tag.AnalyticsService=S
 persist.log.tag.KernelCpuUidActiveTimeReader=S
 persist.log.tag.Tracer=S
+persist.log.tag.OpenGLRenderer=S
 persist.log.tag.NearbySharing=S
 persist.log.tag.IntervalStats=S
 persist.log.tag.CompatibilityChangeReporter=S
@@ -101,6 +99,10 @@ media.stagefright.enable-scan=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
+
+# Mobile Data
+ro.com.android.dataroaming=false
+ro.com.android.mobiledata=false
 
 # Netflix Properties
 ro.netflix.bsp_rev=Q6115-31409-1
