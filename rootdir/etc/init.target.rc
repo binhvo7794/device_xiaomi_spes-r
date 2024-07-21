@@ -200,6 +200,8 @@ on property:sys.boot_completed=1
     write /sys/block/zram0/use_dedup 1
     swapon_all /vendor/etc/fstab.zram
     stop statsd
+    stop traced
+    stop traced_probes
 
 service vendor.mdm_launcher /vendor/bin/sh /vendor/bin/init.mdm.sh
     class core
