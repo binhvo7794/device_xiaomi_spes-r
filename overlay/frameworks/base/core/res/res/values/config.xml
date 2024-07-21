@@ -667,7 +667,16 @@
         <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
         <item>com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService</item>
         <item>com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver</item>
-        <item>com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver</item>
+	<item>com.google.android.gms/.stats.service.DropBoxEntryAddedReceiver</item>
+	<item>com.google.android.gms/.measurement.AppMeasurementJobService</item>
+	<item>com.google.android.gms/.gms.measurement.AppMeasurementService</item>
+	<item>com.google.android.gms/.measurement.PackageMeasurementService</item>
+	<item>com.google.android.gms/.measurement.PackageMeasurementTaskService</item>
+	<item>com.google.android.gms/.measurement.service.MeasurementBrokerService</item>
+	<item>com.google.android.gms/.analytics.AnalyticsService</item>
+	<item>com.google.android.gms/.analytics.AnalyticsTaskService</item>
+	<item>com.google.android.gms/.analytics.internal.PlayLogReportingService</item>
+	<item>com.google.android.gms/.analytics.service.AnalyticsService</item>
     </string-array>
 
     <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
