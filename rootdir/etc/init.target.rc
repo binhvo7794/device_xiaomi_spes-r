@@ -148,16 +148,10 @@ on boot
     setprop vendor.usb.controller 4e00000.dwc3
     start vendor.sensors
 
-    # Load WLAN driver
-    insmod /vendor/lib/modules/qca_cld3_wlan.ko
-
     # ADD VIB chmod
     chmod 0777 /sys/class/leds/vibrator/state
     chmod 0777 /sys/class/leds/vibrator/duration
     chmod 0777 /sys/class/leds/vibrator/activate
-
-    # Load exfat driver
-    insmod /vendor/lib/modules/exfat.ko
 
 on boot && property:persist.vendor.usb.controller.default=*
     setprop vendor.usb.controller ${persist.vendor.usb.controller.default}
