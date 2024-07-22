@@ -176,12 +176,6 @@ service vendor.per_mgr /vendor/bin/pm-service
     group system
     ioprio rt 4
 
-service mi_thermald /system/vendor/bin/mi_thermald
-    class main
-    user root
-    group system
-    seclabel u:r:mi_thermald:s0
-
 service vendor.per_proxy /vendor/bin/pm-proxy
     class core
     user system

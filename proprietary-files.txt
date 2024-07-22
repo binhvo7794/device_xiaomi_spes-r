@@ -1717,6 +1717,9 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
+# Thermal engine
+vendor/etc/init/init.mi_thermald.rc
+
 # Time services
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
