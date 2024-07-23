@@ -76,6 +76,9 @@ echo 1344000 > /sys/devices/system/cpu/cpu4/cpufreq/schedutil/hispeed_freq
 echo 300000 > /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq
 echo 0 > /sys/devices/system/cpu/cpu4/cpufreq/schedutil/rtg_boost_freq
 
+echo "0:1190000" > /sys/devices/system/cpu/cpu_boost/input_boost_freq
+echo 120 > /sys/devices/system/cpu/cpu_boost/input_boost_ms
+
 # sched_load_boost as -6 is equivalent to target load as 85. It is per cpu tunable.
 echo -6 >  /sys/devices/system/cpu/cpu0/sched_load_boost
 echo -6 >  /sys/devices/system/cpu/cpu1/sched_load_boost
