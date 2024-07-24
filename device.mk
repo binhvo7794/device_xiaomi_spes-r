@@ -58,6 +58,9 @@ USE_DEX2OAT_DEBUG := false
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 
+# Enable project quotas and case folding
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # AR config
 PRODUCT_COPY_FILES += \
    device/xiaomi/spes/configs/android.hardware.camera.ar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.ar.xml
