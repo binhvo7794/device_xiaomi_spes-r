@@ -1045,13 +1045,11 @@ vendor/lib/libOpenCL.so
 vendor/lib/libVkLayer_q3dtools.so
 vendor/lib/libgpudataproducer.so
 vendor/lib/libllvm-qcom.so
-vendor/lib/libdmabufheap.so
 vendor/lib64/libCB.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libVkLayer_q3dtools.so
 vendor/lib64/libgpudataproducer.so
 vendor/lib64/libllvm-qcom.so
-vendor/lib64/libdmabufheap.so
 
 # Graphic Firmware
 vendor/firmware/a610_zap.b00
