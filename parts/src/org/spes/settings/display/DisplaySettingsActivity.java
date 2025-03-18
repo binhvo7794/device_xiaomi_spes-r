@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.display;
+package org.spes.settings.display;
 
 import android.os.Bundle;
 import android.preference.PreferenceActivity;

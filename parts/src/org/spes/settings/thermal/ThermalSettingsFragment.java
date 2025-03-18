@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.settings.thermal;
+package org.spes.settings.thermal;
 
 import android.annotation.Nullable;
 import android.content.Context;
@@ -39,7 +39,7 @@ import androidx.preference.PreferenceFragment;
 
 import com.android.settingslib.applications.ApplicationsState;
 
-import org.lineageos.settings.R;
+import org.spes.settings.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

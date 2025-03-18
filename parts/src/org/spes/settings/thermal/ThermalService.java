@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.thermal;
+package org.spes.settings.thermal;
 
 import android.app.ActivityManager;
 import android.app.ActivityTaskManager;

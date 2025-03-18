@@ -15,17 +15,17 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings;
+package org.spes.settings;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.util.Log;
-import org.lineageos.settings.utils.FileUtils;
+import org.spes.settings.utils.FileUtils;
 import android.content.SharedPreferences;
 import androidx.preference.PreferenceManager;
-import org.lineageos.settings.thermal.ThermalUtils;
+import org.spes.settings.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 

@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings;
+package org.spes.settings;
 
 import android.content.Context;
 import android.provider.Settings;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.display;
+package org.spes.settings.display;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -24,8 +24,8 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 
-import org.lineageos.settings.R;
-import org.lineageos.settings.utils.FileUtils;
+import org.spes.settings.R;
+import org.spes.settings.utils.FileUtils;
 
 public class DisplaySettingsFragment extends PreferenceFragment implements
         OnPreferenceChangeListener {
