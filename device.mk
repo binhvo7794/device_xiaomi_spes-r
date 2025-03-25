@@ -447,9 +447,8 @@ OVERRIDE_TARGET_FLATTEN_APEX := true
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power.stats@1.0-service.mock \
-	android.hardware.power-service-qti \
-	android.hardware.power-V1-ndk_platform.vendor
+    android.hardware.power-service.xiaomi-libperfmgr \
+    android.hardware.power.stats@1.0-service.mock
 
 PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
@@ -466,10 +465,6 @@ PRODUCT_PACKAGES += \
     curl \
     strace \
     bash
-
-# Perf
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.2.vendor
 
 # QMI
 PRODUCT_PACKAGES += \
