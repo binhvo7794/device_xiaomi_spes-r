@@ -596,6 +596,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.usb.config=mtp,adb
 
+# UFFD GC
+OVERRIDE_ENABLE_UFFD_GC := false
+
 # Vendor service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
