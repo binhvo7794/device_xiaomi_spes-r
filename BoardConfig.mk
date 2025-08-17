@@ -163,6 +163,7 @@ BOARD_KERNEL_CMDLINE += \
     service_locator.enable=1 \
     swiotlb=2048 \
     kpti=off \
+    kasan=off \
     cgroup_disable=pressure \
     cgroup.memory=nokmem,nosocket \
     noirqdebug
